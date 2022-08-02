@@ -1,5 +1,6 @@
 # multi-master-kubernetes-cluster
-simple way to deploy a multi master kubernetes cluster with HA proxy.
+simple way to deploy a multi master kubernetes cluster with HA proxy. <br>
+this is a manual configuratoin - you can easily do this by using ha proxy as your kuber controlplane endpoint and deploying your cluster normally - documenteation is available on kuber website. 
 
 to do this we need at least 4 servers(2 master nodes - 1 worker node - 1 for ha proxy), this document was tested on July 23 2022 with ubuntu 20 - kuber v1.24.3.
 ### lets define our environment:
